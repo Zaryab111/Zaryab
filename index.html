@@ -16,15 +16,16 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-
 .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
 a{color:inherit}
 h1,h2,h3{font-family:"Instrument Serif",Georgia,serif;font-weight:400;margin:0}
-header.bar{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:2px solid var(--ink)}
+header.bar{position:sticky;top:0;z-index:10;background:var(--paper);border-bottom:1px solid #e3e3e3}
 header.bar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 20px;flex-wrap:wrap}
 .brand{background:var(--green);border:2px solid var(--ink);border-radius:10px;padding:2px 14px;font-family:"Instrument Serif",serif;font-size:1.35rem;text-decoration:none}
 nav a{margin-left:20px;text-decoration:none;font-weight:500}
 nav a:hover{text-decoration:underline;text-underline-offset:5px}
 .hero{padding:72px 0 56px}
 .badge{display:inline-block;background:var(--green);border:2px solid var(--ink);border-radius:10px;padding:4px 14px;font-weight:600;font-size:.95rem}
-.hero h1{font-size:clamp(2.8rem,8vw,5.4rem);line-height:.98;margin:22px 0 18px}
-.hl{background:var(--yellow);border:2px solid var(--ink);padding:0 10px;display:inline-block;transform:rotate(-1deg)}
+.hero h1{font-size:clamp(2.6rem,7.5vw,5rem);line-height:1.05;margin:22px 0 18px}
+.hero h1 .l2{display:block;margin-top:6px}
+.hl{background:var(--yellow);padding:0 10px;display:inline-block;transform:rotate(-1deg)}
 .lead{max-width:640px;font-size:1.2rem}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 8px}
 .btn{display:inline-block;padding:11px 22px;border:2px solid var(--ink);border-radius:10px;font-weight:600;text-decoration:none;background:var(--paper);transition:transform .2s,box-shadow .2s}
@@ -69,7 +70,7 @@ footer a{color:#fff}
 <main id="top">
 <section class="hero"><div class="wrap">
   <span class="badge">Looking for a research master's or research internship</span>
-  <h1>Studying how to make <span class="hl">AI systems</span> <em>reliable</em></h1>
+  <h1>Building <span class="hl">AI systems</span><span class="l2"><em>and studying how they fail</em></span></h1>
   <p class="lead">I am a computer science graduate (COMSATS University Islamabad, Lahore, 2026) and an AI engineer. I build AI systems end to end, and I want to study them empirically: software engineering for AI, LLMs for code, the reliability of AI systems and cyber security.</p>
   <div class="btns">
     <a class="btn dark" href="Zaryab_Safder_Resume.pdf">Download resume (PDF)</a>
